@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Sorted Projects</title>
+</head>
+<body>
+    <div class="navbar">
+        <h1>Project Data to Rank EIP</h1>
+        <div class="inputFields">
+            <input class="text-box" type="text" id="tokenInput" placeholder="Enter your token here">
+            <button class="button-8" role="button" id="fetchProjectsButton"><span class="text">Send Token</span></button>
+        </div>
+        <div class="selector">
+            <button class="button-9" role="button" id="sortByStarsButton"><span class="text">Sort by stars</span></button>
+            <button class="button-9" role="button" id="sortByViewsButton"><span class="text">Sort by views</span></button>
+            <button class="button-9" role="button" id="sortByVideoButton"><span class="text">Sort by video</span></button>
+        </div>
+    </div>
+    <div id="projects-container"></div>
+    <script src="main.js"></script>
+</body>
+</html>
