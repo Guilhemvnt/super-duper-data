@@ -6,7 +6,7 @@ body {
 
 .navbar {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
     background-color: #333;
     padding: 10px 20px;
@@ -15,21 +15,32 @@ body {
 
 .navbar h1 {
     margin: 0;
-    font-size: 24px;
+    font-size: 1.5em; /* Adjusted for better responsiveness */
 }
 
 .navbar .inputFields {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+    justify-content: center;
 }
 
 .navbar .inputFields input {
     padding: 5px;
     margin-right: 10px;
+    flex: 1; /* Adjusts to available space */
+    min-width: 150px;
 }
 
 .navbar .selector {
     display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .navbar .selector button {
@@ -37,81 +48,54 @@ body {
 }
 
 #projects-container {
-    padding: 20px;
+    padding: 20px; /* Adjusted to prevent overflow on smaller screens */
+}
+
+/* Button styles */
+.button-9, .button-8 {
+    appearance: button;
+    backface-visibility: hidden;
+    background-color: #405cf5;
+    border-radius: 6px;
+    border-width: 0;
+    box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-family: -apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Ubuntu,sans-serif;
+    font-size: 80%;
+    height: 44px;
+    line-height: 1.15;
+    outline: none;
+    overflow: hidden;
+    padding: 0 25px;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    transform: translateZ(0);
+    transition: all .2s,box-shadow .08s ease-in;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
 }
 
 .button-9 {
-  appearance: button;
-  backface-visibility: hidden;
-  background-color: #405cf5;
-  border-radius: 6px;
-  border-width: 0;
-  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
-  box-sizing: border-box;
-  color: #fff;
-  cursor: pointer;
-  font-family: -apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Ubuntu,sans-serif;
-  font-size: 100%;
-  height: 44px;
-  line-height: 1.15;
-  outline: none;
-  overflow: hidden;
-  padding: 0 25px;
-  position: relative;
-  text-align: center;
-  text-transform: none;
-  transform: translateZ(0);
-  transition: all .2s,box-shadow .08s ease-in;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  width: 100%;
-}
-
-.button-9:disabled {
-  cursor: default;
-}
-
-.button-9:focus {
-  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .2) 0 6px 15px 0, rgba(0, 0, 0, .1) 0 2px 2px 0, rgba(50, 151, 211, .3) 0 0 0 4px;
+    width: 100%;
 }
 
 .button-8 {
-  appearance: button;
-  backface-visibility: hidden;
-  background-color: #405cf5;
-  border-radius: 6px;
-  border-width: 0;
-  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
-  box-sizing: border-box;
-  color: #fff;
-  cursor: pointer;
-  font-family: -apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Ubuntu,sans-serif;
-  font-size: 100%;
-  height: 44px;
-  line-height: 1.15;
-  outline: none;
-  overflow: hidden;
-  padding: 0 25px;
-  position: relative;
-  text-align: center;
-  text-transform: none;
-  transform: translateZ(0);
-  transition: all .2s,box-shadow .08s ease-in;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  width: 50%;
+    width: 50%;
 }
 
-.button-8:disabled {
-  cursor: default;
+.button-9:disabled, .button-8:disabled {
+    cursor: default;
 }
 
-.button-8:focus {
-  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .2) 0 6px 15px 0, rgba(0, 0, 0, .1) 0 2px 2px 0, rgba(50, 151, 211, .3) 0 0 0 4px;
+.button-9:focus, .button-8:focus {
+    box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .2) 0 6px 15px 0, rgba(0, 0, 0, .1) 0 2px 2px 0, rgba(50, 151, 211, .3) 0 0 0 4px;
 }
 
+/* Text box styles */
 .text-box {
     font-size: 16px;
     border-radius: 4px;
@@ -148,17 +132,43 @@ body {
 
 .selector {
     display: grid;
-    width: 32%;
+    width: 100%;
     grid-template-columns: 1fr 1fr 1fr;
-    align-items: start;
-    justify-content: space-between;
+    gap: 10px;
 }
 
 .inputFields {
     display: flex;
-    width: 30%;
+    width: 100%;
     align-items: center;
     gap: 5%;
-    flex-wrap: nowrap;
-    align-content: stretch;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Media Queries */
+@media (min-width: 600px) {
+    .navbar {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .navbar .inputFields, .navbar .selector {
+        width: auto;
+        flex: 1;
+    }
+}
+
+@media (min-width: 768px) {
+    .text-box {
+        width: 25%;
+    }
+
+    .button-8 {
+        width: 30%;
+    }
+}
+
+.title {
+    padding-right: 5%;
 }
