@@ -226,6 +226,8 @@ button:hover {
 }
 
 
+
+/* avg datas */
 .city-container {
     border: 1px solid #ccc;
     margin-bottom: 10px;
@@ -244,4 +246,10 @@ button:hover {
 .project-info p strong {
     margin-right: 5px;
     font-weight: bold;
+}
+
+.project-info hr {
+    margin: 10px 0;
+    border: 0;
+    border-top: 1px solid #000;
 }
