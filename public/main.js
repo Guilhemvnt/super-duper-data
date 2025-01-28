@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', () => {
       for (const cityCode in averageByCity) {
           const city = averageByCity[cityCode];
           city.totalReview = city.approved + city.rejected + city.waiting_update
-          city.avgReviewProject = ( city.totalReview / city.count) * 100 || 0
+          city.avgReviewProject = (city.totalReview / city.count) * 100 || 0
           city.averageStars = city.totalStars / city.count;
           city.avgApproved = (city.approved / city.count) * 100 || 0;
           city.avgRejected = (city.rejected / city.count) * 100 || 0;
@@ -65,48 +65,48 @@ document.addEventListener('DOMContentLoaded', () => {
       return averageByCity;
   };
 
-    const sortCitiesByAverageReview = (averageReview) => {
-      const sortedCities = Object.keys(averageReview).sort((cityCodeA, cityCodeB) => {
-          return averageReview[cityCodeB].totalReview - averageReview[cityCodeA].totalReview;
-      });
-      return sortedCities;
-    };
+  const sortCitiesByAverageReview = (averageReview) => {
+    const sortedCities = Object.keys(averageReview).sort((cityCodeA, cityCodeB) => {
+        return averageReview[cityCodeB].totalReview - averageReview[cityCodeA].totalReview;
+    });
+    return sortedCities;
+  };
     
-    const displayAverageByCity = (sortedCities, averageByCity) => {
-      const container = projectsContainer;
-      container.innerHTML = ''; // Clear previous content
-      
-      sortedCities.forEach(cityCode => {
-          const city = averageByCity[cityCode];
-          const cityDiv = document.createElement('div');
-          cityDiv.classList.add('city-container');
-          cityDiv.innerHTML = `
-            <h3>${cityCode}</h3>
-            <div class="project-info">
-                <p><strong>Count project:</strong> ${city.count}</p>
-                <p><strong>Average Stars:</strong> ${city.averageStars.toFixed(2)}%</p>
-                <hr>
-                <p><strong>Total Review Project:</strong> ${city.totalReview}</p>
-                <p><strong>Average Review Project:</strong> ${city.avgReviewProject.toFixed(2)}</p>
-                <hr>
-                <p><strong>Count approved:</strong> ${city.approved}</p>
-                <p><strong>Average approved:</strong> ${city.avgApproved.toFixed(2)}%</p>
-                <hr>
-                <p><strong>Count rejected:</strong> ${city.rejected}</p>
-                <p><strong>Average rejected:</strong> ${city.avgRejected.toFixed(2)}%</p>
-                <hr>
-                <p><strong>Count waiting update:</strong> ${city.waiting_update}</p>
-                <p><strong>Average waiting update:</strong> ${city.avgWaiting_update.toFixed(2)}%</p>
-                <hr>
-                <p><strong>Count pending:</strong> ${city.pending}</p>
-                <p><strong>Average pending:</strong> ${city.avgPending.toFixed(2)}%</p>
-                <hr>
-                <p><strong>Count draft:</strong> ${city.draft}</p>
-                <p><strong>Average draft:</strong> ${city.avgDraft.toFixed(2)}%</p>
-            </div>
-        `;
-          container.appendChild(cityDiv);
-      });
+  const displayAverageByCity = (sortedCities, averageByCity) => {
+    const container = projectsContainer;
+    container.innerHTML = ''; // Clear previous content
+    
+    sortedCities.forEach(cityCode => {
+        const city = averageByCity[cityCode];
+        const cityDiv = document.createElement('div');
+        cityDiv.classList.add('city-container');
+        cityDiv.innerHTML = `
+          <h3>${cityCode}</h3>
+          <div class="project-info">
+              <p><strong>Count project:</strong> ${city.count}</p>
+              <p><strong>Average Stars:</strong> ${city.averageStars.toFixed(2)}%</p>
+              <hr>
+              <p><strong>Total Review Project:</strong> ${city.totalReview}</p>
+              <p><strong>Average Review Project:</strong> ${city.avgReviewProject.toFixed(2)}</p>
+              <hr>
+              <p><strong>Count approved:</strong> ${city.approved}</p>
+              <p><strong>Average approved:</strong> ${city.avgApproved.toFixed(2)}%</p>
+              <hr>
+              <p><strong>Count rejected:</strong> ${city.rejected}</p>
+              <p><strong>Average rejected:</strong> ${city.avgRejected.toFixed(2)}%</p>
+              <hr>
+              <p><strong>Count waiting update:</strong> ${city.waiting_update}</p>
+              <p><strong>Average waiting update:</strong> ${city.avgWaiting_update.toFixed(2)}%</p>
+              <hr>
+              <p><strong>Count pending:</strong> ${city.pending}</p>
+              <p><strong>Average pending:</strong> ${city.avgPending.toFixed(2)}%</p>
+              <hr>
+              <p><strong>Count draft:</strong> ${city.draft}</p>
+              <p><strong>Average draft:</strong> ${city.avgDraft.toFixed(2)}%</p>
+          </div>
+      `;
+        container.appendChild(cityDiv);
+    });
   };
   
   const displayProjects = (sortedProjects) => {
