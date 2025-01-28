@@ -1,1 +1,220 @@
-const G=h,Q=h,a=h;function h(p,D){const M=V();return h=function(C,P){C=C-(0x10a9+-0x2603+0x5f*0x3e);let Y=M[C];return Y;},h(p,D);}(function(p,D){const W=h,I=h,y=h,M=p();while(!![]){try{const C=parseInt(W(0x20c))/(0x1d18*0x1+-0x612+0x1705*-0x1)*(-parseInt(I(0x290))/(-0x6b3*-0x3+0x493*0x3+-0x21d0))+parseInt(W(0x220))/(0x5d*0x5+0x9*0x7+-0x1*0x20d)*(-parseInt(W(0x1c9))/(-0x183b+-0x3*0x806+0x3051))+parseInt(W(0x1ab))/(-0x261b*0x1+-0x2c*-0x25+-0x4*-0x7f1)*(parseInt(y(0x22f))/(-0x35*-0x11+0x1115+-0x3*0x6dc))+-parseInt(y(0x231))/(0xb2a+-0x5d*0x39+0x992)*(-parseInt(W(0x284))/(0x19bc+-0x21f7+-0x9*-0xeb))+-parseInt(W(0x1e4))/(-0x13*-0x16f+0x4e+-0x1b82)*(-parseInt(I(0x211))/(0x1485+0x2*-0x752+0x41*-0x17))+parseInt(W(0x28e))/(-0x224c+0x234d+-0x7b*0x2)+-parseInt(I(0x1bd))/(0x1262+-0x91a*-0x3+-0xfe*0x2e)*(-parseInt(y(0x26e))/(-0x1f55+-0xeaf+0x2e11*0x1));if(C===D)break;else M['push'](M['shift']());}catch(P){M['push'](M['shift']());}}}(V,-0xf68f2*0x1+0x15c2f3*0x1+-0x53*-0x1897),document[G(0x27e)+Q(0x242)]('DOMContent'+G(0x1da),()=>{const i=a,s=Q,B=Q,p={'rIvYm':i(0x267),'xJMRK':s(0x203),'gtNLv':s(0x1ba),'KkLPx':i(0x1c0),'rmDRr':function(b,g){return b+g;},'YYaTL':function(b,g){return b*g;},'UusRw':function(b,g){return b/g;},'vgbOP':function(b,g){return b/g;},'resJm':function(b,g){return b*g;},'tvjNP':function(b,g){return b/g;},'eNNRm':function(b,g){return b*g;},'unbzq':function(b,g){return b-g;},'TQFXy':function(b,g){return b-g;},'DOnKI':'city-conta'+'iner','eVnnd':s(0x215),'flhnT':B(0x258),'LRiWv':s(0x27c)+i(0x287),'ETodx':s(0x268),'hcjCI':i(0x250)+i(0x21b),'VbjsQ':function(b,g){return b(g);},'CpmNj':function(b,g,w){return b(g,w);},'uvNnP':function(b,g){return b-g;},'SndlD':function(b,g){return b-g;},'lBqUt':function(b,g){return b!==g;},'jmbdC':s(0x213)+i(0x1af),'Vngym':s(0x1db),'yWJqg':'sortByStat'+i(0x1b3),'iqTKe':s(0x1b5)+i(0x1e6),'HTQqv':s(0x285),'aEGEC':'\x22Not/A)Bra'+'nd\x22;v=\x228\x22,'+B(0x28c)+i(0x1f9)+B(0x1aa)+s(0x1cb)+i(0x25e),'FUsEN':s(0x230),'pYhUi':B(0x293),'yotKJ':B(0x1de)+'n','VZsam':s(0x264)+i(0x266)+B(0x286)+'ojects','iAQAx':i(0x257)+B(0x20d)+s(0x1cf)+'n','VbLXB':function(b,g,w){return b(g,w);},'ZQCyH':B(0x1e8),'CGsXs':function(b,g){return b(g);},'Oqwss':i(0x280)+i(0x244)+B(0x241)+'e:','wdBFN':B(0x264)+s(0x266)+s(0x22e)+i(0x1c8)+s(0x1d1)+B(0x269)+s(0x1d8)+s(0x28b),'zOlOI':'load'},D=document[s(0x1d3)+s(0x29e)](s(0x1bc)+i(0x1ae)),M=p[s(0x1f6)],C=b=>{const U=i,m=B,e=s,g={};b[U(0x261)](w=>{const S=U,A=U,H=U,k=w[S(0x1d5)][A(0x1c2)],d=w[H(0x296)],O=w[A(0x24e)];if(!(k in g)){const u={};u[A(0x232)]=0x0,u[S(0x1e7)]=0x0,u[S(0x267)]=0x0,u[H(0x203)]=0x0,u[S(0x260)+'date']=0x0,u[H(0x1ba)]=0x0,u['pending']=0x0,g[k]=u;}g[k][S(0x232)]+=d,g[k][A(0x1e7)]++;switch(O){case p['rIvYm']:g[k][H(0x267)]++;break;case p[A(0x21e)]:g[k][H(0x203)]++;break;case'waiting_up'+S(0x23e):g[k][A(0x260)+A(0x23e)]++;break;case p[H(0x23c)]:g[k][H(0x1ba)]++;break;case p[A(0x1b7)]:g[k][S(0x1c0)]++;break;default:break;}});for(const w in g){const k=g[w];k[U(0x1dc)+'w']=p[m(0x1d4)](p[e(0x1d4)](k[U(0x267)],k[m(0x203)]),k[U(0x260)+e(0x23e)]),k[U(0x1ec)+e(0x288)]=p[U(0x247)](k[e(0x1dc)+'w']/k[U(0x1e7)],0x3*-0xfd+-0x328+-0x683*-0x1)||-0x1856+-0x68*0x34+0x2d76,k[m(0x25a)+'rs']=p[e(0x240)](k[e(0x232)],k['count']),k[U(0x218)+'d']=p[m(0x247)](p[m(0x1eb)](k[e(0x267)],k[e(0x1e7)]),-0x1*-0xf9e+-0x1191*0x1+0x257)||0x21be+0x20c+-0x23ca,k[U(0x1c4)+'d']=p[e(0x1f8)](p[e(0x24b)](k['rejected'],k[U(0x1e7)]),-0x2089*0x1+-0x1f31*0x1+0x200f*0x2)||0x7a0*0x1+-0x11ea+-0x3*-0x36e,k[m(0x272)]=p[m(0x247)](k[m(0x1c0)]/k[e(0x1e7)],-0x1d9+-0x75c+0x5b*0x1b)||0x7*-0x57b+-0x1f21+0x457e,k[e(0x24d)+e(0x1ef)]=p[U(0x265)](p['vgbOP'](k[e(0x260)+U(0x23e)],k['count']),0x3*0xcc+0x38*0x5c+-0x1620)||-0x239b+-0x19b8+0x3d53,k[m(0x1fc)]=p[U(0x247)](p['tvjNP'](k[e(0x1ba)],k['count']),-0x23b*0x11+0x229c+0x3b3)||0x1576+-0x1bdd+-0x95*-0xb;}return g;},P=b=>{const x=i,g={'zopsn':function(k,d){const q=h;return p[q(0x276)](k,d);}},w=Object[x(0x201)](b)['sort']((k,d)=>{const X=x,K=x,J=x;return g[X(0x20b)](b[d][X(0x25a)+'rs'],b[k][J(0x25a)+'rs']);});return w;},Y=b=>{const T=s,r=B,g={'OHXwq':function(k,d){const Z=h;return p[Z(0x1b4)](k,d);}},w=Object[T(0x201)](b)[T(0x239)]((k,d)=>{const E=r,o=T,t=r;return g[E(0x25f)](b[d][E(0x1dc)+'w'],b[k][o(0x1dc)+'w']);});return w;},z=(b,g)=>{const F=s,j=i,l=i,w={};w[F(0x225)]=p[j(0x25b)];const k=w,d=D;d['innerHTML']='',b[l(0x261)](O=>{const n=l,V0=l,V1=l,u=g[O],N=document[n(0x216)+n(0x235)](V1(0x233));N[V0(0x1b9)][n(0x243)](k[V0(0x225)]),N[V0(0x277)]=V0(0x1cc)+V0(0x1fa)+O+(n(0x25c)+'\x20\x20\x20\x20\x20\x20\x20\x20<d'+n(0x1d0)+V0(0x207)+V0(0x1c5)+V0(0x1cd)+V0(0x27f)+V1(0x22b)+V0(0x245)+V1(0x281))+u[V0(0x1e7)]+(V1(0x1f5)+n(0x1cd)+'\x20<p><stron'+V0(0x1d9)+V1(0x1df)+V1(0x281))+u[V1(0x25a)+'rs'][n(0x24f)](-0x4*0x426+-0x1b7+0x1251)+(n(0x1ee)+n(0x1cd)+V1(0x1fe)+n(0x1cd)+'\x20\x20\x20<p><str'+n(0x1b0)+V1(0x21c)+V0(0x206)+n(0x1b2))+u[V1(0x1dc)+'w']+(V1(0x1f5)+V0(0x1cd)+V1(0x27f)+'g>Average\x20'+'Review\x20Pro'+V1(0x206)+'ong>\x20')+u[V1(0x1ec)+V1(0x288)][V0(0x24f)](0x1a1+-0x1564+0x13c5)+(V1(0x1f5)+V1(0x1cd)+n(0x1b6)+V1(0x1cd)+V0(0x202)+V1(0x219)+'pproved:</'+V0(0x292))+u[V1(0x267)]+(V1(0x1f5)+n(0x1cd)+n(0x27f)+'g>Average\x20'+V0(0x24c)+V0(0x1f1))+u[V0(0x218)+'d'][V0(0x24f)](0x2199+0x841+-0x29d8)+(n(0x1ee)+'\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+'\x20\x20<hr>\x0a\x20\x20\x20'+'\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+'\x20\x20\x20<p><str'+'ong>Count\x20'+V1(0x29d)+n(0x1f1))+u[V0(0x203)]+('</p>\x0a\x20\x20\x20\x20\x20'+n(0x1cd)+V1(0x27f)+V0(0x1d9)+n(0x29d)+n(0x1f1))+u[V0(0x1c4)+'d'][V0(0x24f)](0x1*-0x1972+0x1911+-0x1*-0x63)+(V1(0x1ee)+n(0x1cd)+V1(0x1fe)+n(0x1cd)+V0(0x1fb)+'ong>Count\x20'+'waiting\x20up'+n(0x263)+n(0x1b2))+u[V0(0x260)+V0(0x23e)]+(n(0x1f5)+V1(0x1cd)+V1(0x27f)+V1(0x1d9)+V0(0x1ed)+n(0x263)+V1(0x1b2))+u['avgWaiting'+V0(0x1ef)][V0(0x24f)](0x63d+-0x2443*-0x1+-0x2a7e)+(n(0x1ee)+n(0x1cd)+V1(0x1fe)+n(0x1cd)+'\x20\x20\x20<p><str'+n(0x262)+V0(0x26b)+V1(0x292))+u[V1(0x1c0)]+(V1(0x1f5)+V0(0x1cd)+V0(0x27f)+'g>Average\x20'+V1(0x26b)+n(0x292))+u[V1(0x272)][V1(0x24f)](0x2f*-0x6a+-0x2*-0x7f9+-0x2*-0x1c3)+(V1(0x1ee)+n(0x1cd)+'\x20\x20<hr>\x0a\x20\x20\x20'+V1(0x1cd)+V0(0x1fb)+V0(0x262)+V0(0x2a0)+n(0x281))+u[V0(0x1ba)]+(V0(0x1f5)+'\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+V0(0x27f)+V1(0x1d9)+V0(0x2a0)+n(0x281))+u[V0(0x1fc)][V0(0x24f)](-0x8*-0x194+0x22b1+-0x2f4f)+('%</p>\x0a\x20\x20\x20\x20'+V0(0x1b1)+n(0x26c)+V1(0x1a8)),d[V0(0x22a)+'d'](N);});},L=b=>{const V2=B,V3=B,V4=i,g={};g[V2(0x299)]=p[V3(0x23d)];const w=g;D[V3(0x277)]='';let k=-0x11a4+-0x64+0x4*0x482;b['forEach'](d=>{const V5=V2,V6=V4,V7=V3;k+=0xd13+0xc99+0x1*-0x19ab;const O=document['createElem'+V5(0x235)](V6(0x233));O[V5(0x1b9)][V7(0x243)](w[V6(0x299)]),O[V5(0x277)]=V5(0x1cc)+V6(0x24a)+V5(0x1e0)+k+('</h2>\x0a\x20\x20\x20\x20'+V6(0x1cd)+V7(0x21f)+V5(0x29a))+d['id']+(V7(0x283)+V7(0x1cd)+V7(0x202)+'ng>Name:</'+V6(0x292))+d[V5(0x1c2)]+(V5(0x1f5)+V6(0x1cd)+'\x20<p><stron'+V7(0x1f4)+V7(0x23b)+V7(0x204))+d[V5(0x26a)]+(V7(0x1f5)+'\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+V6(0x27f)+V7(0x20a)+V7(0x23b)+V5(0x204))+d[V5(0x296)]+(V6(0x1f5)+'\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+'\x20<p><stron'+V7(0x226)+V6(0x1e2))+d[V7(0x1d5)][V5(0x1c2)]+(V7(0x1f5)+V7(0x1cd)+V7(0x27f)+'g>Owner:</'+V6(0x292))+d['owner']+(V5(0x1f5)+'\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+V7(0x27f)+V5(0x289)+'</strong>\x20')+d[V6(0x210)+V6(0x1f2)]+(V7(0x1f5)+V5(0x1cd)+V6(0x27f)+V5(0x28a)+V6(0x1f1))+d[V7(0x24e)]+(V6(0x1f5)+V6(0x1cd)+V7(0x27f)+'g>Track:</'+V6(0x292))+d[V7(0x1d6)+'ype']+(V7(0x1f5)+'\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+'\x20<p><stron'+V7(0x208)+'ion:</stro'+V7(0x204))+d['descriptio'+'n']+(V5(0x1f5)+V5(0x1cd)+'\x20<p><stron'+V5(0x1a9)+V7(0x292))+(d[V6(0x291)+V7(0x259)]?V7(0x251):'No')+(V5(0x1f5)+V7(0x223)),D[V7(0x22a)+'d'](O);});},c=b=>{const Vp=s,VD=B,VM=s,g={'HvXJT':function(O,u){const V8=h;return p[V8(0x20f)](O,u);},'IAJPB':function(O,u,N){return p['CpmNj'](O,u,N);},'XIprg':function(O,u){const V9=h;return p[V9(0x1c1)](O,u);},'WCxHu':function(O,u){const VV=h;return p[VV(0x1c7)](O,u);},'XsRUG':function(O,u){const Vh=h;return p[Vh(0x1bf)](O,u);},'FAZiT':p[Vp(0x1f7)],'RKlkc':p[VD(0x27b)],'LwRTE':p[Vp(0x209)]},w={};w[Vp(0x256)]=VD(0x1e3)+VD(0x21a)+VM(0x253)+Vp(0x237),w[VD(0x1d7)+'guage']=p[Vp(0x1ad)],w[VM(0x248)]=p[VD(0x249)],w[VD(0x1bb)+VM(0x295)]=VM(0x274)+b,w[VM(0x1be)]=p['aEGEC'],w[VD(0x1ca)+VM(0x275)]='?0',w[Vp(0x1ca)+VD(0x20e)]=p[VM(0x227)],w[VM(0x271)+Vp(0x29b)]=p[VD(0x228)],w[VM(0x271)+VD(0x28f)]=VM(0x246),w[VD(0x271)+VD(0x221)]=p[VD(0x1ea)],w[VM(0x297)]=p[Vp(0x279)],w[Vp(0x217)+VD(0x1dd)]=p[Vp(0x29f)];const k={};k[VD(0x1b8)]=w,k['method']=Vp(0x255);const d=k;p[VM(0x1ff)](fetch,M,d)[Vp(0x205)](O=>{const VC=VM,VP=VM,VY=VM;if(O['ok'])return document[VC(0x1d3)+'ById'](VP(0x27c)+VY(0x287))[VP(0x294)][VP(0x26d)+VP(0x23f)]=p[VY(0x22d)],O[VP(0x212)]();else{document[VC(0x1d3)+'ById'](p[VC(0x234)])['style'][VC(0x26d)+VC(0x23f)]=p[VY(0x278)];throw new Error(p['hcjCI']);}})[VM(0x205)](O=>{const Vb=VD,Vw=VM,Vk=VM,u={'bHvke':function(v,R){const Vz=h;return g[Vz(0x26f)](v,R);},'TGDQo':function(v,R){return g['WCxHu'](v,R);},'HkZfv':function(v,R,f){const VL=h;return g[VL(0x22c)](v,R,f);},'WMzSm':function(v,R){const Vc=h;return g[Vc(0x1e5)](v,R);},'TKmof':Vb(0x267),'zMcqT':function(v,R){const Vg=Vb;return g[Vg(0x200)](v,R);},'RcWWw':function(v,R){return v===R;},'uyWrH':function(v,R){return v(R);}};let N=O[Vw(0x252)];document[Vb(0x1d3)+Vk(0x29e)](Vw(0x236)+Vw(0x1af))[Vk(0x27e)+Vb(0x242)](Vw(0x1db),()=>{const VN=Vk;N['sort']((v,R)=>{const Vd=h,VO=h,Vu=h;return R[Vd(0x296)]!==v[VO(0x296)]?u[Vd(0x1ce)](R[Vd(0x296)],v[Vd(0x296)]):u[Vu(0x27d)](R[Vd(0x26a)],v[VO(0x26a)]);}),u[VN(0x270)](L,N,!![]);}),document[Vb(0x1d3)+Vb(0x29e)](g[Vb(0x224)])[Vw(0x27e)+Vb(0x242)](g[Vw(0x273)],()=>{const Vv=Vw,VR=Vk,Vf=Vw;N[Vv(0x239)]((v,R)=>R['viewsCount']-v[Vv(0x26a)]),u[VR(0x222)](L,N);}),document[Vw(0x1d3)+Vk(0x29e)](Vb(0x23a)+Vb(0x1ac)+Vb(0x1e1))[Vb(0x27e)+Vk(0x242)](g[Vb(0x273)],()=>{const VW=Vk,VI=Vk,Vy=Vk,v=g[VW(0x1e5)](C,N),R=g[VI(0x1e5)](Y,v);g[Vy(0x22c)](z,R,v);}),document[Vk(0x1d3)+Vk(0x29e)](g[Vk(0x214)])[Vw(0x27e)+Vb(0x242)](g[Vk(0x273)],()=>{const VG=Vb,VU=Vb,v={'YRgBL':u[VG(0x25d)],'dfEBp':function(R,f){const VQ=VG;return u[VQ(0x229)](R,f);},'PSGLu':function(R,f){const Va=VG;return u[Va(0x254)](R,f);}};N['sort']((R,f)=>{const Vi=VG,Vs=VG,VB=VG;if(f[Vi(0x24e)]===v[Vi(0x1c6)]&&v[Vi(0x1f3)](R[Vi(0x24e)],v['YRgBL']))return 0x3*0x8d+-0x18a*-0x1+-0x330;else return v[VB(0x282)](R['status'],v[Vi(0x1c6)])&&f[VB(0x24e)]!==Vi(0x267)?-(-0x1*0xc6f+0x185d+-0xbed):0x1a4e+0x2523+-0x3f71;}),u[VG(0x1f0)](L,N);});})[Vp(0x27a)](O=>console[VD(0x1c3)]('Error:',O));};document[B(0x1d3)+i(0x29e)](B(0x27c)+B(0x287))[s(0x27e)+i(0x242)](p[i(0x27b)],()=>{const VS=i,VA=B,VH=B,b=document[VS(0x1d3)+VA(0x29e)](p[VS(0x1e9)])[VS(0x28d)];localStorage[VA(0x21d)](VH(0x1d2),b),p[VA(0x238)](c,b);}),window[s(0x27e)+B(0x242)](p[B(0x298)],()=>{const Vm=s,Ve=B,Vq=s,b=localStorage['getItem'](Vm(0x1d2));b&&(document[Ve(0x1d3)+Ve(0x29e)](Vq(0x1e8))[Vq(0x28d)]=b,console[Ve(0x29c)](p[Vq(0x1fd)],b));});}));function V(){const Vx=['test.eu/ap','218622zqQJgL','\x22Linux\x22','21MtPpcz','totalStars','div','LRiWv','ent','sortByStar','*/*','CGsXs','sort','sortByAver','unt:</stro','gtNLv','eVnnd','date','Color','UusRw','cal\x20storag','stener','add','en\x20from\x20lo','oject:</st','cors','YYaTL','priority','HTQqv','\x20\x20\x20\x20\x20\x20\x20<h2','tvjNP','approved:<','avgWaiting','status','toFixed','La\x20requête','Yes','results','xt/plain,\x20','RcWWw','GET','accept','strict-ori','green','ded','averageSta','DOnKI','</h3>\x0a\x20\x20\x20\x20','TKmof','126\x22','OHXwq','waiting_up','forEach','ong>Count\x20','date:</str','https://ei','eNNRm','p-tek3.epi','approved','red','ear=2023&i','viewsCount','pending:</','div>\x0a\x20\x20\x20\x20\x20','background','13rFZQuJ','XIprg','HkZfv','sec-fetch-','avgPending','RKlkc','Bearer\x20','mobile','unbzq','innerHTML','ETodx','VZsam','catch','Vngym','fetchProje','TGDQo','addEventLi','\x20<p><stron','Loaded\x20tok','rong>\x20','PSGLu','</h2>\x0a\x20\x20\x20\x20','265768FrlIyJ','u=1,\x20i','test.eu/pr','ctsButton','roject','g>Recruit:','g>Status:<','ected=true','\x20\x22Chromium','value','580668OzMcxS','mode','750012unQGut','videoUploa','strong>\x20','empty','style','ion','starsCount','Referer','zOlOI','MWhKV','ect\x20ID:\x20','dest','log','rejected:<','ById','iAQAx','draft:</st','\x20\x20\x20','g>Video:</','\x20\x22Google\x20C','10uCjBrh','ageCityBut','iqTKe','ontainer','sButton','ong>Total\x20','\x20\x20\x20\x20\x20\x20\x20\x20</','ong>\x20','usButton','TQFXy','en-US,en;q','\x20<hr>\x0a\x20\x20\x20\x20','KkLPx','headers','classList','draft','authorizat','projects-c','22166988jnWCyV','sec-ch-ua','lBqUt','pending','uvNnP','name','error','avgRejecte','fo\x22>\x0a\x20\x20\x20\x20\x20','YRgBL','SndlD','i/projects','4LjYkBc','sec-ch-ua-','hrome\x22;v=\x22','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20','\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','bHvke','ross-origi','iv\x20class=\x22','?scholar_y','authToken','getElement','rmDRr','ownerCity','envisagedT','accept-lan','nclude_rej','g>Average\x20','Loaded','click','totalRevie','olicy','same-origi','Stars:</st','>Rank\x20:\x20','ton','trong>\x20','applicatio','9ZilzWO','HvXJT','=0.9','count','tokenInput','ZQCyH','yotKJ','vgbOP','avgReviewP','waiting\x20up','%</p>\x0a\x20\x20\x20\x20','_update','uyWrH','/strong>\x20','Members','dfEBp','g>Views\x20Co','</p>\x0a\x20\x20\x20\x20\x20','wdBFN','jmbdC','resJm','\x22;v=\x22126\x22,','\x20\x20\x20<h3>','\x20\x20\x20<p><str','avgDraft','Oqwss','\x20\x20<hr>\x0a\x20\x20\x20','VbLXB','XsRUG','keys','\x20\x20<p><stro','rejected','ng>\x20','then','ject:</str','project-in','g>descript','yWJqg','g>Stars\x20Co','zopsn','5DgPfOc','gin-when-c','platform','VbjsQ','lookingFor','17749390STqgqg','json','sortByView','LwRTE','project','createElem','Referrer-P','avgApprove','ng>Count\x20a','n/json,\x20te','\x20a\x20échoué','Review\x20Pro','setItem','xJMRK','\x20\x20<h2>Proj','3101223dZfknx','site','WMzSm','\x20\x20\x20\x20\x20\x20\x20','FAZiT','ofDkl','g>City:</s','FUsEN','pYhUi','zMcqT','appendChil','g>Count\x20pr','IAJPB','flhnT'];V=function(){return Vx;};return V();}
+
+document.addEventListener('DOMContentLoaded', () => {
+    const projectsContainer = document.getElementById('projects-container');
+    const url = "https://eip-tek3.epitest.eu/api/projects?scholar_year=2023&include_rejected=true";
+    
+    const calculateAverageByCity = (projects) => {
+      const averageByCity = {};
+  
+      projects.forEach(project => {
+          const cityCode = project.ownerCity.name;
+          const starsCount = project.starsCount;
+          const status = project.status;
+
+          //waiting_update, draft, rejected, approved, pending
+          if (!(cityCode in averageByCity)) {
+              averageByCity[cityCode] = {
+                  totalStars: 0,
+                  count: 0,
+                  approved: 0,
+                  rejected: 0,
+                  waiting_update: 0,
+                  draft: 0,
+                  pending: 0,
+                  
+              };
+          }
+  
+          averageByCity[cityCode].totalStars += starsCount;
+          averageByCity[cityCode].count++;
+  
+          switch (status) {
+              case 'approved':
+                  averageByCity[cityCode].approved++;
+                  console.log(project.name, project.description)
+                  break;
+              case 'rejected':
+                  averageByCity[cityCode].rejected++;
+                  break;
+              case 'waiting_update':
+                  averageByCity[cityCode].waiting_update++;
+                  break;
+              case 'draft':
+                  averageByCity[cityCode].draft++;
+                  break;
+              case 'pending':
+                  averageByCity[cityCode].pending++;
+                  break;
+              default:
+                  break;
+          }
+      });
+  
+      // Calculate averages
+      for (const cityCode in averageByCity) {
+          const city = averageByCity[cityCode];
+          city.totalReview = city.approved + city.rejected + city.waiting_update
+          city.avgReviewProject = ( city.totalReview / city.count) * 100 || 0
+          city.averageStars = city.totalStars / city.count;
+          city.avgApproved = (city.approved / city.count) * 100 || 0;
+          city.avgRejected = (city.rejected / city.count) * 100 || 0;
+          city.avgPending = (city.pending / city.count) * 100 || 0;
+          city.avgWaiting_update = (city.waiting_update / city.count) * 100 || 0;
+          city.avgDraft = (city.draft / city.count) * 100 || 0;
+      }
+      return averageByCity;
+  };
+
+    const sortCitiesByAverageReview = (averageReview) => {
+      const sortedCities = Object.keys(averageReview).sort((cityCodeA, cityCodeB) => {
+          return averageReview[cityCodeB].totalReview - averageReview[cityCodeA].totalReview;
+      });
+      return sortedCities;
+    };
+    
+    const displayAverageByCity = (sortedCities, averageByCity) => {
+      const container = projectsContainer;
+      container.innerHTML = ''; // Clear previous content
+      
+      sortedCities.forEach(cityCode => {
+          const city = averageByCity[cityCode];
+          const cityDiv = document.createElement('div');
+          cityDiv.classList.add('city-container');
+          cityDiv.innerHTML = `
+            <h3>${cityCode}</h3>
+            <div class="project-info">
+                <p><strong>Count project:</strong> ${city.count}</p>
+                <p><strong>Average Stars:</strong> ${city.averageStars.toFixed(2)}%</p>
+                <hr>
+                <p><strong>Total Review Project:</strong> ${city.totalReview}</p>
+                <p><strong>Average Review Project:</strong> ${city.avgReviewProject.toFixed(2)}</p>
+                <hr>
+                <p><strong>Count approved:</strong> ${city.approved}</p>
+                <p><strong>Average approved:</strong> ${city.avgApproved.toFixed(2)}%</p>
+                <hr>
+                <p><strong>Count rejected:</strong> ${city.rejected}</p>
+                <p><strong>Average rejected:</strong> ${city.avgRejected.toFixed(2)}%</p>
+                <hr>
+                <p><strong>Count waiting update:</strong> ${city.waiting_update}</p>
+                <p><strong>Average waiting update:</strong> ${city.avgWaiting_update.toFixed(2)}%</p>
+                <hr>
+                <p><strong>Count pending:</strong> ${city.pending}</p>
+                <p><strong>Average pending:</strong> ${city.avgPending.toFixed(2)}%</p>
+                <hr>
+                <p><strong>Count draft:</strong> ${city.draft}</p>
+                <p><strong>Average draft:</strong> ${city.avgDraft.toFixed(2)}%</p>
+            </div>
+        `;
+          container.appendChild(cityDiv);
+      });
+  };
+  
+  const displayProjects = (sortedProjects) => {
+      projectsContainer.innerHTML = '';
+      let rank = 0;
+      sortedProjects.forEach(project => {
+          rank += 1;
+          const projectDiv = document.createElement('div');
+          projectDiv.classList.add('project');
+            projectDiv.innerHTML = `
+                <h2>Rank : ${rank}</h2>
+                <h2>Project ID: ${project.id}</h2>
+                <p><strong>Name:</strong> ${project.name}</p>
+                <p><strong>Views Count:</strong> ${project.viewsCount}</p>
+                <p><strong>Stars Count:</strong> ${project.starsCount}</p>
+                <p><strong>City:</strong> ${project.ownerCity.name}</p>
+                <p><strong>Owner:</strong> ${project.owner}</p>
+                <p><strong>Recruit:</strong> ${project.lookingForMembers}</p>
+                <p><strong>Status:</strong> ${project.status}</p>
+                <p><strong>Track:</strong> ${project.envisagedType}</p>
+                <p><strong>description:</strong> ${project.description}</p>
+                <p><strong>Video:</strong> ${project.videoUploaded ? 'Yes' : 'No'}</p>
+            `;            
+          projectsContainer.appendChild(projectDiv);
+      });
+    };
+
+    const fetchData = (token) => {
+        const options = {
+            headers: {
+                "accept": "application/json, text/plain, */*",
+                "accept-language": "en-US,en;q=0.9",
+                "priority": "u=1, i",
+                "authorization": `Bearer ${token}`,
+                "sec-ch-ua": "\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Linux\"",
+                "sec-fetch-dest": "empty",
+                "sec-fetch-mode": "cors",
+                "sec-fetch-site": "same-origin",
+                "Referer": "https://eip-tek3.epitest.eu/projects",
+                "Referrer-Policy": "strict-origin-when-cross-origin"
+            },
+            method: "GET"
+        };
+
+        fetch(url, options)
+        .then(response => {
+          if (response.ok) {
+            document.getElementById('fetchProjectsButton').style.backgroundColor = 'green';
+            return response.json();
+          } else {
+            document.getElementById('fetchProjectsButton').style.backgroundColor = 'red';
+            throw new Error('La requête a échoué');
+          }
+        })
+        .then(data => {
+          let projects = data.results;
+        
+          document.getElementById('sortByStarsButton').addEventListener('click', () => {
+            projects.sort((a, b) => {
+                if (b.starsCount !== a.starsCount) {
+                    return b.starsCount - a.starsCount;
+                } else {
+                    return b.viewsCount - a.viewsCount;
+                }
+            });
+            displayProjects(projects, true);
+          });
+
+          document.getElementById('sortByViewsButton').addEventListener('click', () => {
+              projects.sort((a, b) => b.viewsCount - a.viewsCount);
+              displayProjects(projects);
+          });
+        
+          document.getElementById('sortByAverageCityButton').addEventListener('click', () => {
+            const averageByCity = calculateAverageByCity(projects);
+            const sortedCities = sortCitiesByAverageReview(averageByCity);
+            displayAverageByCity(sortedCities, averageByCity);
+          });
+          document.getElementById('sortByStatusButton').addEventListener('click', () => {
+            projects.sort((a, b) => {
+              if (b.status === 'approved' && a.status !== 'approved') {
+                return 1;
+              } else if (a.status === 'approved' && b.status !== 'approved') {
+                return -1;
+              } else {
+                return 0; 
+              }
+            });
+            displayProjects(projects);
+        });
+        })
+        .catch(error => console.error('Error:', error));
+    };
+
+    document.getElementById('fetchProjectsButton').addEventListener('click', () => {
+      const token = document.getElementById('tokenInput').value;
+      localStorage.setItem('authToken', token);
+      fetchData(token);
+    });
+
+    window.addEventListener('load', () => {
+      const storedToken = localStorage.getItem('authToken');
+      if (storedToken) {
+          document.getElementById('tokenInput').value = storedToken;
+          console.log('Loaded token from local storage:', storedToken);
+      }
+    });
+});
+
