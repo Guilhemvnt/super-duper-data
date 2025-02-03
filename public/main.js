@@ -1,7 +1,7 @@
 
 document.addEventListener('DOMContentLoaded', () => {
     const projectsContainer = document.getElementById('projects-container');
-    const url = "https://eip-tek3.epitest.eu/api/projects?scholar_year=2023&include_rejected=true";
+    const url = "https://eip.epitech.eu/api/projects?scholar_year=2023&include_rejected=true";
     
     const calculateAverageByCity = (projects) => {
       const averageByCity = {};
@@ -147,7 +147,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 "sec-fetch-dest": "empty",
                 "sec-fetch-mode": "cors",
                 "sec-fetch-site": "same-origin",
-                "Referer": "https://eip-tek3.epitest.eu/projects",
+                "Referer": "https://eip.epitech.eu/projects",
                 "Referrer-Policy": "strict-origin-when-cross-origin"
             },
             method: "GET"
